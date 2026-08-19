@@ -1,0 +1,1 @@
+window._channel='Mintegral',window._bridge={onInstall:function(){window.install&&window.install()},onReady:function(){window.gameReady&&window.gameReady()},onEnd:function(){window.gameEnd&&window.gameEnd()}},window.gameStart=function(){_bridge.startGame&&_bridge.startGame()},window.gameClose=function(){_bridge.endGame&&_bridge.endGame()};
