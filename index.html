@@ -1,92 +1,110 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chou Bag</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: #f3eadf;
-            min-height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+  <title>ChouBag</title>
 
-        .card {
-            width: 90%;
-            max-width: 420px;
-            background: white;
-            padding: 35px 25px;
-            border-radius: 20px;
-            text-align: center;
-            box-shadow: 0 8px 30px rgba(0,0,0,0.15);
-        }
+  <style>
+    * {
+      box-sizing: border-box;
+    }
 
-        h1 {
-            margin-bottom: 10px;
-            color: #222;
-            font-size: 32px;
-        }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      background: #f3e8d0;
+    }
 
-        p {
-            color: #777;
-            margin-bottom: 30px;
-        }
+    .container {
+      width: 90%;
+      max-width: 420px;
+      text-align: center;
+      background: #fffaf2;
+      padding: 40px 25px;
+      border-radius: 25px;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+    }
 
-        .button {
-            display: block;
-            text-decoration: none;
-            background: #222;
-            color: white;
-            padding: 16px;
-            margin: 15px 0;
-            border-radius: 12px;
-            font-size: 18px;
-            transition: 0.2s;
-        }
+    h1 {
+      margin: 0 0 10px;
+      color: #222;
+      font-size: 32px;
+    }
 
-        .button:hover {
-            transform: scale(1.02);
-            background: #444;
-        }
+    p {
+      color: #666;
+      margin-bottom: 30px;
+      font-size: 17px;
+    }
 
-        .footer {
-            margin-top: 25px;
-            color: #999;
-            font-size: 13px;
-        }
-    </style>
+    .button {
+      display: block;
+      width: 100%;
+      padding: 16px;
+      margin: 15px 0;
+      border-radius: 12px;
+      text-decoration: none;
+      font-size: 19px;
+      font-weight: bold;
+      transition: 0.2s;
+    }
+
+    .facebook {
+      background: #1877f2;
+      color: white;
+    }
+
+    .instagram {
+      background: #000;
+      color: white;
+    }
+
+    .button:hover {
+      transform: scale(1.03);
+      opacity: 0.9;
+    }
+
+    .footer {
+      margin-top: 25px;
+      color: #999;
+      font-size: 13px;
+    }
+  </style>
 </head>
 
 <body>
 
-    <div class="card">
+  <div class="container">
 
-        <h1>Chou Bag</h1>
+    <h1>ChouBag</h1>
 
-        <p>تابعونا على مواقع التواصل الاجتماعي</p>
+    <p>تابعونا على مواقع التواصل الاجتماعي</p>
 
-        <a class="button"
-           href="https://www.facebook.com/Elchouvaliz"
-           target="_blank">
-            Facebook
-        </a>
+    <a
+      class="button facebook"
+      href="https://www.facebook.com/Elchouvaliz"
+      target="_blank">
+      Facebook
+    </a>
 
-        <a class="button"
-           href="https://www.instagram.com/choubag_2026"
-           target="_blank">
-            Instagram
-        </a>
+    <a
+      class="button instagram"
+      href="https://www.instagram.com/choubag_2026"
+      target="_blank">
+      Instagram
+    </a>
 
-        <div class="footer">
-            Chou Bag
-        </div>
-
+    <div class="footer">
+      شكراً لزيارتكم ❤️
     </div>
+
+  </div>
 
 </body>
 </html>
